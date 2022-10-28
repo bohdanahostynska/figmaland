@@ -1,0 +1,54 @@
+.reviews{
+    text-align: center;
+
+    &__title{
+        margin-bottom: 90px;
+        margin-top: 100px;
+    }
+
+    &__icon{
+        margin-bottom: 50px;
+    }
+
+    &__text{
+        color: #374754;
+        margin: 0 auto 60px auto;
+        max-width: 967px;
+       
+    }
+
+    &__user{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+
+        &-avatar{
+            margin-right: 10px;
+        }
+
+        &-duties{
+            font-size: 16px;
+            line-height: 23px;
+            letter-spacing: 0.1px;
+            color: #374754;
+
+        }
+
+        &-position{
+            font-size: 15px;
+            line-height: 28px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+
+        }
+
+        &-info{
+            text-align: left;
+        }
+    }
+    &__button{
+        max-width: 276px;
+        margin-bottom: 100px;
+    }
+
+}

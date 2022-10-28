@@ -1,0 +1,72 @@
+.partners{
+    text-align: center;
+    align-items: center;
+
+    &__title{
+        max-width: 188px;
+        margin: 130px auto 23px auto;
+    }
+    &__text{
+        max-width: 532px;
+        margin: 0 auto 92px auto;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+
+        
+        &__top{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+
+            &__content{
+                padding:31px 0 45px;
+                display: inline-block;
+                margin-right: 45px;
+        
+            }    
+        
+            &__name{
+                display: inline-block;
+                font-size: 16px;
+                line-height: 23px;
+                margin: 0 auto 15px;
+            }
+            
+        
+            &__item{
+                padding: 31px 0 46px;
+        
+                &__img{
+                  
+                    margin-right: 40px;
+                }
+        
+
+                 
+            }     
+            
+        }  
+
+        &__bottom{
+            display: flex;
+            flex-direction: row;
+                
+        }
+
+
+      
+
+
+
+    }
+
+
+
+}
+
+
+

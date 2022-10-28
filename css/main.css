@@ -1,0 +1,334 @@
+@font-face {
+  font-family: "Graphik";
+  src: url(../../fonts/Graphik-Regular.woff);
+}
+@font-face {
+  font-family: "Graphik Bold";
+  src: url(../../fonts/Graphik-Bold.woff);
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  outline: none;
+  padding: 0;
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing {
+  background-color: #252B42;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+}
+.pricing__title {
+  margin-bottom: 17px;
+}
+.pricing__text {
+  font-weight: 400;
+  max-width: 532px;
+  display: inline-block;
+  margin-bottom: 90px;
+}
+.pricing__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pricing__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  color: black;
+  padding: 40px;
+  margin-right: 50px;
+  max-width: 335px;
+}
+.pricing__item-title {
+  font-family: "Graphik Bold";
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.pricing__item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #374754;
+  max-width: 438px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.pricing__item-cost {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.pricing__item-cost-content {
+  text-align: start;
+  margin-left: 10px;
+}
+.pricing__item-cost-value, .pricing__item-cost-currency {
+  font-family: "Graphik Bold";
+  font-size: 74px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.pricing__item-list {
+  margin-bottom: 30px;
+}
+.pricing__item-list-name {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+.pricing__item:last-child {
+  margin-right: 0;
+}
+.pricing__item--mod {
+  background: #2091F9;
+  color: #FFFFFF;
+  padding: 83px 40px;
+}
+.pricing__item--mod-text {
+  color: inherit;
+}
+.pricing__item--mod-cost-value {
+  color: inherit;
+}
+.pricing__item--mod-cost-content {
+  color: inherit;
+}
+.pricing__item--mod-cost-content-currency {
+  color: inherit;
+}
+.pricing__item--mod-cost-content-info {
+  color: inherit;
+}
+.pricing__item--mod-list-name {
+  color: inherit;
+}
+.pricing__item--mod-button {
+  background-color: #FFFFFF;
+  color: #2091F9;
+}
+
+.title {
+  font-size: 48px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.title--white {
+  color: #fff;
+}
+
+.reviews {
+  text-align: center;
+}
+.reviews__title {
+  margin-bottom: 90px;
+  margin-top: 100px;
+}
+.reviews__icon {
+  margin-bottom: 50px;
+}
+.reviews__text {
+  color: #374754;
+  margin: 0 auto 60px auto;
+  max-width: 967px;
+}
+.reviews__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 80px;
+}
+.reviews__user-avatar {
+  margin-right: 10px;
+}
+.reviews__user-duties {
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+.reviews__user-position {
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.reviews__user-info {
+  text-align: left;
+}
+.reviews__button {
+  max-width: 276px;
+  margin-bottom: 100px;
+}
+
+.avatar {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar__picture {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.button {
+  background: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 18px 0;
+  width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.button:hover {
+  background-color: #2473be;
+}
+
+.text {
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #374754;
+  font-weight: 400;
+}
+.text--white {
+  color: #fff;
+}
+
+.partners {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.partners__title {
+  max-width: 188px;
+  margin: 130px auto 23px auto;
+}
+.partners__text {
+  max-width: 532px;
+  margin: 0 auto 92px auto;
+}
+.partners__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.partners__list__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 20px;
+}
+.partners__list__top__content {
+  padding: 31px 0 45px;
+  display: inline-block;
+  margin-right: 45px;
+}
+.partners__list__top__name {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0 auto 15px;
+}
+.partners__list__top__item {
+  padding: 31px 0 46px;
+}
+.partners__list__top__item__img {
+  margin-right: 40px;
+}
+.partners__list__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.image {
+  display: inline-block;
+  height: 63px;
+  width: 193px;
+  overflow: hidden;
+}
+.image__icon {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

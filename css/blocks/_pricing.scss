@@ -1,0 +1,138 @@
+.pricing{
+    background-color: #252B42; 
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+
+    &__title{
+        margin-bottom: 17px;
+    }
+
+    &__text{ 
+        font-weight: 400;
+        max-width: 532px;
+        display: inline-block;
+        margin-bottom: 90px;
+       }
+       
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+
+    &__item{
+        flex: 1;
+        background: #FFFFFF;
+        border: 1px solid #DEDEDE;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 10px;
+        color:black;
+        padding: 40px;
+        margin-right:50px;
+        max-width: 335px;
+
+
+        &-title{
+            font-family: "Graphik Bold";
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+        &-text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            letter-spacing: 0.1px;
+            color: #374754;
+            max-width: 438px;
+            margin-bottom: 30px;
+            display: inline-block;
+    
+        }
+
+        &-cost{
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+
+            &-content{
+                text-align: start;
+                margin-left: 10px;
+                
+            }
+
+            &-value,
+            &-currency{
+                font-family: "Graphik Bold";
+                font-size: 74px;
+                letter-spacing: 0.2px;
+                color: #252B42;
+            }
+
+
+        }
+
+        &-list{
+            margin-bottom: 30px;
+            &-name{
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+          
+            }
+        }
+
+
+    }
+
+    
+    &__item:last-child{
+        margin-right: 0;
+       
+    }
+
+       &__item--mod{
+            background: #2091F9;
+            color: #FFFFFF;
+            padding: 83px 40px;
+
+       
+                &-text{
+                    color: inherit;
+                }
+
+                &-cost{
+
+                      &-value {
+                        color: inherit;
+                    }
+                    
+                      &-content{
+                            color: inherit;
+                   
+                      &-currency{
+                        color: inherit;
+                      } 
+    
+                      &-info{
+                        color: inherit;
+                      }
+                    }
+                         
+                }
+
+                &-list{
+                    &-name{
+                        color: inherit;
+                    }
+                }
+
+                &-button{
+                 background-color: #FFFFFF;
+                    color: #2091F9; 
+                 }
+       
+            
+     }
+}
