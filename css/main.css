@@ -29,10 +29,6 @@ a {
   color: black;
 }
 
-p {
-  margin: 0;
-}
-
 button {
   outline: none;
   padding: 0;
@@ -320,15 +316,55 @@ h1, h2, h3 {
           flex-direction: row;
 }
 
-.image {
-  display: inline-block;
-  height: 63px;
-  width: 193px;
-  overflow: hidden;
+.fingerprints {
+  padding: 159px 0 52px;
 }
-.image__icon {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.fingerprints__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.fingerprints__content__right {
+  display: inline-block;
+}
+.fingerprints__content__right__about__pretitle {
+  font-size: 20px;
+  line-height: 28px;
+  color: #252B42;
+}
+.fingerprints__content__right__about__title {
+  margin: 17px 0 35px;
+}
+.fingerprints__content__right__about__text {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #374754;
+}
+.fingerprints__content__right__about__pretext {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  margin-top: 35px;
+}
+.fingerprints__content__right__bottom {
+  margin-top: 34px;
+}
+.fingerprints__content__right__bottom__email {
+  width: 273px;
+  height: 54px;
+  background: #F4F4F4;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+  padding: 19px 0 19px 39px;
+}
+.fingerprints__content__right__bottom__button-blue {
+  background: #2091F9;
+  border-radius: 35px;
 }
