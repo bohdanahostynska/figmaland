@@ -1,0 +1,22 @@
+.ways{
+    &__content{
+        display: flex;
+        flex-direction: row;
+    
+
+    &__left{
+        max-width: 600px;
+
+        &__title{
+            max-width: 335px;
+            font-size: 48px;
+            line-height: 55px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+            margin-top: 292px;
+
+        }
+    }
+
+}
+}

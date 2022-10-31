@@ -1,0 +1,49 @@
+@font-face{
+    font-family: "Graphik";
+    src:url(../../fonts/Graphik-Regular.woff);
+}
+
+@font-face{
+    font-family: "Graphik Bold";
+    src:url(../../fonts/Graphik-Bold.woff);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body,
+html{
+    height: 100%;
+    width:100%;
+    margin: 0;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+button{
+    outline: none;
+    padding: 0;
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+
+
