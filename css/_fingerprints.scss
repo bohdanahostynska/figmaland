@@ -1,0 +1,79 @@
+.fingerprints{
+    padding: 159px 0 52px;
+
+    &__content{
+        display: flex;
+        flex-direction: row;
+        gap: 123px;
+       
+        .fingerprints__bottom{
+           display: flex;
+           flex-direction: row;
+            &__button-blue{
+                background: #2091F9;
+                border-radius: 35px;
+                max-width: 172px;
+               
+            }
+       
+        }      
+      }
+    
+    &__pretitle{
+        font-size: 20px;
+        line-height: 28px;
+        color: #252B42;
+     } 
+     
+     &__pretext{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        margin-top: 35px;
+        max-width: 276px;
+        margin-bottom: 0;
+     }
+
+     &__text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        color: #374754;
+        max-width: 301px;
+        margin-bottom: 35px;
+       
+     }
+     
+     &__email{
+        width: 273px;
+        height: 54px;
+        background:#E8E8E8;
+        border: 1px solid #E8E8E8;
+        border-radius: 39px;
+        padding: 19px 0 19px 39px;
+        max-width: 273px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #18171D;
+        margin-right: 12px;
+
+    }
+ 
+    &__button{
+        width: 172px;
+        height: 58px;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 19px 38px;
+    }
+
+    &__image{
+    width:100%;
+
+    }
+    }

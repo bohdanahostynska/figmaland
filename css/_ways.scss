@@ -1,22 +1,39 @@
-.ways{
-    &__content{
+.ways {
+ 
+    &__container {
         display: flex;
         flex-direction: row;
-    
+        margin: 0 auto;
+        max-width: 1200px;
 
-    &__left{
-        max-width: 600px;
+       
+    }
 
-        &__title{
-            max-width: 335px;
+     &__title {
+            font-weight: 400;
             font-size: 48px;
             line-height: 55px;
             letter-spacing: 0.2px;
             color: #252B42;
-            margin-top: 292px;
-
+            max-width: 335px;
+            margin-top: 92px;
+        
         }
+
+    &__button{
+        color:white;
+        max-width: 236px;
     }
 
-}
+    &__text{
+        max-width: 532px;
+        margin: 27px 0 80px;
+    }
+
+
+    &__picture{
+        margin-top: 92px;
+        max-width: 100%;
+    }
+
 }
