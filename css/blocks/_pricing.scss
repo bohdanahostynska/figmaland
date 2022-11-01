@@ -1,44 +1,45 @@
-.pricing{
-    background-color: #252B42; 
+.pricing {
+    background-color: #252b42;
     padding: 100px 0;
     color: #fff;
     text-align: center;
 
-    &__title{
+    &__title {
         margin-bottom: 17px;
     }
 
-    &__text{ 
+    &__text {
         font-weight: 400;
         max-width: 532px;
         display: inline-block;
-        margin-bottom: 90px;
-       }
-       
-    &__list{
-        display: flex;
-        align-items: center;
+        margin-bottom: 90px;   
     }
 
-    &__item{
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item {
         flex: 1;
-        background: #FFFFFF;
-        border: 1px solid #DEDEDE;
+        background: #ffffff;
+        border: 1px solid #dedede;
         box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
         border-radius: 10px;
-        color:black;
+        color: black;
         padding: 40px;
-        margin-right:50px;
+        margin-right: 50px;
         max-width: 335px;
 
-
-        &-title{
+        &-title {
             font-family: "Graphik Bold";
             font-size: 20px;
             text-transform: uppercase;
             margin-bottom: 3px;
         }
-        &-text{
+
+        &-text {
             font-weight: 400;
             font-size: 16px;
             line-height: 23px;
@@ -47,92 +48,88 @@
             max-width: 438px;
             margin-bottom: 30px;
             display: inline-block;
-    
         }
 
-        &-cost{
+        &-cost {
             margin-bottom: 30px;
             display: flex;
             justify-content: center;
 
-            &-content{
+            &-content {
                 text-align: start;
                 margin-left: 10px;
-                
             }
 
             &-value,
-            &-currency{
+            &-currency {
                 font-family: "Graphik Bold";
                 font-size: 74px;
                 letter-spacing: 0.2px;
-                color: #252B42;
+                color: #252b42;
             }
-
-
         }
 
-        &-list{
+        &-list {
             margin-bottom: 30px;
-            &-name{
+
+            &-name {
                 font-weight: 400;
                 font-size: 15px;
                 line-height: 28px;
                 letter-spacing: 0.2px;
-          
+                text-decoration: none;
             }
         }
 
+      
 
-    }
-
-    
-    &__item:last-child{
-        margin-right: 0;
-       
-    }
-
-       &__item--mod{
-            background: #2091F9;
-            color: #FFFFFF;
+        &--mod {
+            background: #2091f9;
+            color: #ffffff;
             padding: 83px 40px;
 
-       
-                &-text{
+           
+
+            .pricing__item-cost {
+                &-value {
                     color: inherit;
                 }
 
-                &-cost{
-
-                      &-value {
-                        color: inherit;
-                    }
-                    
-                      &-content{
-                            color: inherit;
-                   
-                      &-currency{
-                        color: inherit;
-                      } 
-    
-                      &-info{
-                        color: inherit;
-                      }
-                    }
-                         
+                &-currency {
+                    color: inherit;
                 }
-
-                &-list{
-                    &-name{
-                        color: inherit;
-                    }
-                }
-
-                &-button{
-                 background-color: #FFFFFF;
-                    color: #2091F9; 
-                 }
-       
             
-     }
+
+                &-content {
+                    color: inherit;
+
+                    &-info {
+                        color: inherit;
+                    }
+                }
+            }
+
+        
+
+          &-list {
+                &-name {
+                    color: #fff;
+                    list-style: none;
+                }
+            }
+
+
+        
+        }
+
+    }
+
+    
+    .pricing__item-text--mod{
+        color: #fff;
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
 }

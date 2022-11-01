@@ -1,0 +1,47 @@
+.features{
+    padding: 115px 0 80px;
+
+    &__title{
+     max-width: 194px;
+     margin: 0 auto 27px;
+    }
+
+    &__text{
+        max-width: 532px;
+        margin: 0 auto 97px;
+        text-align: center;
+    }
+
+    &__main{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    &__img{
+        margin-bottom: 27px;
+    }
+
+    &__title-bold{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        max-width: 194px;
+        margin: 0 auto 20px;
+    }
+
+    &__text-small{
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #374754;
+        max-width: 231px;
+
+    }
+    
+}

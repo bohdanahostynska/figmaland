@@ -1,13 +1,13 @@
 
 @import "./blocks/_base.scss";
+@import "./blocks/_header.scss";
+@import "./blocks/features";
 @import "./blocks/_pricing.scss";
-@import "./blocks/_title";
+@import "./blocks/title";
 @import "./blocks/_reviews";
 @import "./blocks/_avatar";
-@import "./blocks/_button";
+@import "./blocks/button";
 @import "./blocks/_text";
 @import "./blocks/_partners";
-@import "./blocks/_fingerprints";
-@import "./blocks/_ways";
-
-
+@import "./blocks/fingerprints";
+@import "./blocks/ways";

@@ -29,6 +29,9 @@ a{
     color: black;
 }
 
+p{
+    margin: 0;
+}
 
 button{
     outline: none;
@@ -38,7 +41,7 @@ button{
     cursor: pointer;
 }
 
-h1,h2,h3{
+h1,h2,h3,h5{
     margin: 0;
 }
 .container{
